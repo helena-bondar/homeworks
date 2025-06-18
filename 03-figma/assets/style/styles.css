@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+.container {
+    /* width:90%;
+    max-width: 970px;
+    margin: 0 auto; */
+
+    width: min(90%, 970px);
+    margin-inline: auto;
+}
+.container nav{
+    border-bottom: 1px solid #828282;
+}
+.gray {
+    background-color: #F6F6F6;
+}
+ul {
+    list-style-type: none;
+}
