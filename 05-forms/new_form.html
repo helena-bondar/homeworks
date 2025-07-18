@@ -9,12 +9,12 @@
 <body>
     <div class="container">
         <h1>Additional form</h1>
-        <form action="" method="post" id="my_form" onsubmit="alert(decodeURI(new URLSearchParams(Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;">
+        <form action="#" method="post" id="my_form" onsubmit="alert(decodeURI(new URLSearchParams(Array.from(new FormData(document.getElementById('my_form')))).toString()));return false;">
             <fieldset>
                 <legend>Personal</legend>
                 <div class="form_row">
                     <label for="avatar">Choose a profile picture:</label>
-                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
                 </div>
                 <div class="form_row">
                     <label for="fname">First name</label>
@@ -105,9 +105,9 @@
         </div>
         </form>
         <div class="btns new">
-        <a href="index.html">
-            <button type="button">Main form</button>
-        </a>
+        <form action="index.html">
+            <button type="submit">Main form</button>
+        </form>
     </div>
     </div>
 </body>
