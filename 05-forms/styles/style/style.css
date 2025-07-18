@@ -1,0 +1,46 @@
+.container {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 50px;
+    background: #b3b3b3;
+    font-size: 1rem;
+}
+h1 {
+    text-align: center;
+}
+.form_row {
+    margin-bottom: 10px;
+}
+.form_row label {
+    display: inline-block;
+    width: 200px;
+}
+.btns {
+    text-align: center;
+}
+.new {
+    margin-top: 20px;
+}
+.copyright {
+    margin-bottom: 10px;
+}
+.radio {
+padding-left: 200px;
+}
+.radio label {
+    display: inline-block;
+    width: auto;
+}
+span {
+    display: inline-block;
+    width: 200px;
+    margin-left: -200px;
+}
+fieldset {
+    margin-bottom: 10px;
+}
+
+legend {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}

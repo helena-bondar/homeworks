@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Additional form</title>
+    <link rel="stylesheet" href="styles/style/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Additional form</h1>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Personal</legend>
+                <div class="form_row">
+                    <label for="avatar">Choose a profile picture:</label>
+                    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+                </div>
+                <div class="form_row">
+                    <label for="fname">First name</label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="form_row">
+                    <label for="lname">Last name</label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="form_row">
+                    <label for="pass">Password</label>
+                    <input type="password" name="pass" id="pass">
+                </div>
+                <div class="form_row">
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="0" max="100">
+                </div>
+                <div class="form_row">
+                    <div class="radio">
+                        <span>Стать</span>
+                        <input type="radio" name="gender" id="male" value="male" checked>
+                        <label for="male">чоловіча</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="female">жіноча</label>
+                    </div>
+                </div>
+                <div class="form_row">
+                    <label for="bday">Birth Day</label>
+                    <input type="date" name="bday" id="bday">
+                </div>
+                <div class="form_row">
+                    <label for="eye">Eye colour</label>
+                    <select name="eye" id="eye">
+                        <option value="" selected disabled>-=Select=-</option>
+                        <option value="green">green</option>
+                        <option value="blue">blue</option>
+                        <option value="grey">grey</option>
+                        <option value="brown">brown</option>
+                        <option value="mixed">mixed</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Contact</legend>
+                <div class="form_row">
+                    <label for="tel">Telephone</label>
+                    <input type="tel" name="tel" id="tel" placeholder="+38 (000) 000 00 00">
+                </div>
+                <div class="form_row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                </div>
+                <div class="form_row">
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address"></textarea>
+                </div>
+                <div class="form_row">
+                    <label for="li_url">LinkedIn</label>
+                    <input type="url" name="li_url" id="li_url" value="https://www.linkedin.com/...">
+                </div>
+                <div class="form_row">
+                    <label for="sm_url">Other social media</label>
+                    <input type="url" name="sm_url" id="sm_url">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Hobby and other</legend>
+                <div class="form_row">
+                    <label for="color">Favorite color</label>
+                    <input type="color" name="color" id="color">
+                </div>
+                <div class="form_row">
+                    <label for="hobby">Hobbies</label>
+                    <select name="hobby" id="hobby" multiple size="7">
+                        <option value="" selected disabled>-=Select=-</option>
+                        <option value="re">reading</option>
+                        <option value="sw">swimming</option>
+                        <option value="ru">running</option>
+                        <option value="dw">drawing</option>
+                        <option value="co">cooking</option>
+                        <option value="mu">music</option>
+                    </select>
+                </div>
+            </fieldset>
+            <div class="btns new">
+            <button type="reset">Очистити форму</button>
+            <button type="submit">Зареєструватися</button>
+        </div>
+        </form>
+        <div class="btns new">
+        <a href="index.html">
+            <button type="button">Main form</button>
+        </a>
+    </div>
+    </div>
+</body>
+</html>
+<!--
+<div class="form_row">
+                    <label for="hgh">Height cm</label>
+                    <input type="range" name="hgh" id="hgh" min="0" max="100">
+                </div>
+                -->
